@@ -1,0 +1,81 @@
+@mixin fontz($f) {
+  font-size: $f;
+}
+/*************************************************************/
+$color_1: #000;
+$color_2: #727272;
+$color_4: white;
+$color_5: #34547a;
+$font-family_1: 'Roboto';
+$background-color_1: #eeeff1;
+$background-color_2: #34547a;
+$minWidth: 320px;
+$maxWidth: 1920px;
+$maxWidthContainer: 1170px;
+$containerPadding: 30px;
+$mobile: 767.98px;
+$tablet: 991.98px;
+$mobile: 767.98px;
+$mobileSmall: 479.98px;
+/*************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+@import 'null.scss';
+@import 'design.scss';
+@import 'menu.scss';
+@import 'about.scss';
+@import 'project.scss';
+@import 'footer.scss';
+@import 'media.scss';
+/*************************************************************/
+
+/*************************************************************/
+body {
+  color: #000;
+  font-size: 14px;
+  font-family: 'Roboto';
+}
+header {
+  max-height: 700px;
+  background-color: $background-color_1;
+}
+.container {
+  max-width: 1110px;
+  padding: 20px;
+  margin: 0 auto;
+}
+.header {
+  font-size: 16px;
+}
+
+.button {
+  font-family: $font-family_1;
+  background-color: $background-color_2;
+  color: $color_4;
+  font-size: 16px;
+  letter-spacing: 0.1em;
+  padding: 20px;
+  margin: 0px 0px 141px 0px;
+  min-width: 225px;
+  min-height: 65px;
+}
+.active {
+  color: $color_5;
+}
+
+.title {
+  color: #000;
+  font-family: Roboto;
+  font-size: 48px;
+  margin-bottom: 50px;
+  font-weight: 500;
+}
+.text {
+  color: $color_2;
+  line-height: 20px;
+  max-width: 540px;
+  margin: 0px auto;
+}
+
+.bgcolor {
+  background-color: #eeeff1;
+}

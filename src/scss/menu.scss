@@ -1,0 +1,19 @@
+.menu {
+  &__body {
+    max-width: 611px;
+    margin: 59px 0 162px 0;
+  }
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    li {
+      position: relative;
+    }
+  }
+  &__link {
+    color: $color_1;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

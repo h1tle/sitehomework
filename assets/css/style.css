@@ -222,23 +222,6 @@ h6 {
 .footer__copy {
   font-size: 13px;
 }
-body {
-  color: #000000;
-
-  font-family: "Roboto";
-  font-size: 14px;
-}
-
-header {
-  max-height: 700px;
-
-  background-color: #eeeff1;
-}
-
-span {
-  font-size: 21px;
-}
-
 .container {
   max-width: 1110px;
   margin: 0 auto;
@@ -289,6 +272,22 @@ span {
 
 .bgcolor {
   background-color: #eeeff1;
+}
+body {
+  color: #000000;
+
+  font-family: "Roboto";
+  font-size: 14px;
+}
+
+header {
+  max-height: 700px;
+
+  background-color: #eeeff1;
+}
+
+span {
+  font-size: 21px;
 }
 
 @media (max-width: 821px) {

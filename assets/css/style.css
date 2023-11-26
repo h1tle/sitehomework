@@ -285,6 +285,12 @@ header {
   background-color: #eeeff1;
 }
 
+@media (max-width: 680px) {
+  .menu__body {
+    max-width: 600px;
+  }
+}
+
 @media (max-width: 479.98px) {
   .container {
     max-height: 350px;

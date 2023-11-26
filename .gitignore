@@ -3,3 +3,7 @@
 .vscode/
 .DS_Store
 node_modules/
+.eslintignore
+.csscomb.json
+.prettierrc
+gulpfile.js

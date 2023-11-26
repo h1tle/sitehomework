@@ -3,13 +3,13 @@
   background-color: $background-color_2;
   padding: 100px 0;
   color: $color_4;
-
+  align-items: center;
   &__body {
     display: flex;
     align-items: center;
     &::before {
-      content: '';
-      background: url('../../src/img/project.png') left no-repeat;
+      content: "";
+      background: url("../../src/img/project.png") left no-repeat;
       width: 50px;
       height: 50px;
       display: block;

@@ -1,6 +1,7 @@
 @mixin fontz($f) {
   font-size: $f;
 }
+@import url(../scss/_null.scss);
 /*************************************************************/
 $color_1: #000;
 $color_2: #727272;

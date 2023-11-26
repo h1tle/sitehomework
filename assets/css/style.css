@@ -181,7 +181,7 @@ h6 {
 
   content: "";
 
-  background: url("../../src/img/project.png") left no-repeat;
+  background: url("/assets/img/project.png") left no-repeat;
   background-size: contain;
 }
 .project__body li {

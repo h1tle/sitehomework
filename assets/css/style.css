@@ -160,8 +160,8 @@ h6 {
   align-items: center;
   -ms-flex-align: center;
 
-  min-height: 250px;
-  padding: 100px 0;
+  max-height: 250px;
+  padding: 86px 0;
 
   color: white;
   background-color: #34547a;
@@ -289,6 +289,12 @@ span {
 
 .bgcolor {
   background-color: #eeeff1;
+}
+
+@media (max-width: 821px) {
+  .project {
+    padding: 10px;
+  }
 }
 
 @media (max-width: 680px) {

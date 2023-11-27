@@ -1,22 +1,19 @@
 .about {
   text-align: center;
-  padding: 112px 0 100px 0;
   &__body {
     max-width: 540px;
     margin: 0 auto;
   }
-  &__image {
-    position: relative;
-    margin: 57px 0px 0px 0px;
-    padding: 20px;
-    img {
-      max-width: 100%;
-    }
+  &__text {
+    max-width: 540px;
+    color: #727272;
+    line-height: 20px;
+    margin: 0px 0px 100px 0px;
   }
-  &__vector {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin: -50px;
+  &__title {
+    margin: 112px 0px 50px 0px;
+    max-width: 540px;
+    color: #727272;
+    line-height: 20px;
   }
 }

@@ -1,0 +1,40 @@
+.job {
+  background-color: $background-color_1;
+  max-height: 1004px;
+  text-align: center;
+  &__body {
+    max-width: 540px;
+    margin: 0 auto;
+  }
+
+  &__title {
+    margin: 100px 0px 50px 0px;
+  }
+
+  &__text {
+    max-width: 540px;
+    color: #727272;
+    line-height: 20px;
+    margin: 0px 0px 57px 0px;
+  }
+
+  &__image {
+    position: relative;
+    margin: 0px 0px 100px 0px;
+    max-width: 1110px;
+    max-height: 600px;
+    img {
+      max-width: 100%;
+    }
+  }
+
+  &__bg {
+  }
+
+  &__vector {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -50px;
+  }
+}

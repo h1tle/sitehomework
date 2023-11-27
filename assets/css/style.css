@@ -152,46 +152,6 @@ h6 {
   line-height: 20px;
 }
 
-.job {
-  max-height: 1004px;
-
-  text-align: center;
-
-  background-color: #eeeff1;
-}
-.job__body {
-  max-width: 540px;
-  margin: 0 auto;
-}
-.job__title {
-  margin: 100px 0 50px 0;
-}
-.job__text {
-  max-width: 540px;
-  margin: 0 0 57px 0;
-
-  color: #727272;
-
-  line-height: 20px;
-}
-.job__image {
-  position: relative;
-
-  max-width: 1110px;
-  max-height: 600px;
-  margin: 0 0 100px 0;
-}
-.job__image img {
-  max-width: 100%;
-}
-.job__vector {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-
-  margin: -50px;
-}
-
 .project {
   -webkit-box-align: center;
   align-items: center;
@@ -242,6 +202,46 @@ h6 {
 }
 .project__body {
   margin: 0 0 10px 0;
+}
+
+.job {
+  max-height: 1004px;
+
+  text-align: center;
+
+  background-color: #eeeff1;
+}
+.job__body {
+  max-width: 540px;
+  margin: 0 auto;
+}
+.job__title {
+  margin: 100px 0 50px 0;
+}
+.job__text {
+  max-width: 540px;
+  margin: 0 0 57px 0;
+
+  color: #727272;
+
+  line-height: 20px;
+}
+.job__image {
+  position: relative;
+
+  max-width: 1110px;
+  max-height: 600px;
+  margin: 0 0 100px 0;
+}
+.job__image img {
+  max-width: 100%;
+}
+.job__vector {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  margin: -50px;
 }
 
 .footer {
@@ -343,9 +343,6 @@ span {
 }
 
 @media (max-width: 479.98px) {
-  .header {
-    max-width: 350px;
-  }
   .container {
     padding: 20px;
 
